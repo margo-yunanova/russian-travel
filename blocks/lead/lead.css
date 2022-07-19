@@ -1,3 +1,26 @@
 ﻿.lead {
 
 }
+
+
+@media (min-width: /*landscape-phone*/740px) {
+
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .lead {
+
+  }
+
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .lead {
+
+
+  }
+}
+
+
+
+

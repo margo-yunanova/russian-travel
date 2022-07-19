@@ -2,4 +2,29 @@
   background: #2A2C2F;
   color: #FFFFFF;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  --page-margin: 16px;
+  padding: 0 var(--page-margin);
 }
+
+@media (min-width: /*landscape-phone*/740px) {
+  .page {
+    --page-margin: 24px;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .page {
+    --page-margin: 48px;
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .page {
+    --page-margin: calc((100% - 1184px) / 2);
+  }
+}
+
+
+
+
+

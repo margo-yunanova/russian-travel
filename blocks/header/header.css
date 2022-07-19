@@ -1,6 +1,27 @@
-﻿.header {
+﻿.header /*phone*/ {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
+  align-items: flex-end;
+  padding: 16px 0 48px;
 }
+
+@media (min-width: /*landscape-phone*/740px) {
+  .header {
+    padding: 28px 0 48px;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .header {
+    padding: 28px 0 48px;
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .header {
+    padding: 28px 0 56px;
+  }
+}
+
+
+

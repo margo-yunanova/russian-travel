@@ -1,4 +1,32 @@
 ﻿.lead__subtitle {
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
   text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  max-width: 288px;
+}
+
+@media (min-width: /*landscape-phone*/740px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 640px;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .lead__subtitle {
+
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .lead__subtitle {
+    padding-bottom: 64px;
+  }
 }

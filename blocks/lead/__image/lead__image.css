@@ -1,3 +1,22 @@
 ﻿.lead__image {
+  width: calc(100% + var(--page-margin) * 2);
+  padding-bottom: 8px;
+  margin: 0 calc(0px - var(--page-margin));
+}
 
+@media (min-width: /*landscape-phone*/740px) {
+
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .lead__image {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .lead__image {
+
+  }
 }

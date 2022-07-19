@@ -2,4 +2,25 @@
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: left;
+}
+
+@media (min-width: /*landscape-phone*/740px) {
+  .lead__caption {
+
+
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .lead__caption {
+
+  }
+
+}
+
+@media (min-width: /*laptop*/1280px) {
+
 }
