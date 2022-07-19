@@ -1,0 +1,21 @@
+.photo-grid__item {
+  width: calc((100% - var(--photo-grid-gap) * (var(--photo-grid-columns) - 1)) / var(--photo-grid-columns));
+}
+
+@media (min-width: /*landscape-phone*/740px) {
+  .photo-grid__item {
+    /* width: calc((100% - 16px) / 2); */
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .photo-grid__item {
+    /* width: calc((100% - 14px * 2) / 3); */
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .photo-grid__item {
+    /* width: calc((100% - 16px * 3) / 4); */
+  }
+}

@@ -1,3 +1,19 @@
 ﻿.intro {
+  padding-bottom: 64px;
+}
+
+@media (min-width: /*landscape-phone*/740px) {
+  .intro {
+    padding-bottom: 88px;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .intro {
+    padding-bottom: 92px;
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
 
 }

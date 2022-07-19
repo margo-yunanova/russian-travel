@@ -1,3 +1,31 @@
 ﻿.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--photo-grid-gap);
+  padding-bottom: 64px;
+  --photo-grid-gap: 12px;
+  --photo-grid-columns: 1;
+}
 
+@media (min-width: /*landscape-phone*/740px) {
+  .photo-grid {
+    padding-bottom: 88px;
+    --photo-grid-gap: 16px;
+    --photo-grid-columns: 2;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .photo-grid {
+    padding-bottom: 92px;
+    --photo-grid-gap: 14px;
+    --photo-grid-columns: 3;
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .photo-grid {
+    --photo-grid-gap: 16px;
+    --photo-grid-columns: 4;
+  }
 }
