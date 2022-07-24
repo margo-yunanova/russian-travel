@@ -1,5 +1,5 @@
 ﻿.intro {
-  padding-bottom: 64px;
+  padding:  0 var(--page-margin) 64px;
 }
 
 @media (min-width: /*landscape-phone*/740px) {

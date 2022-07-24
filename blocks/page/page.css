@@ -3,7 +3,7 @@
   color: #FFFFFF;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   --page-margin: 16px;
-  padding: 0 var(--page-margin);
+  /* padding: 0 var(--page-margin); */
 }
 
 @media (min-width: /*landscape-phone*/740px) {

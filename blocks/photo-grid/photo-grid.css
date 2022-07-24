@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--photo-grid-gap);
-  padding-bottom: 64px;
+  padding: 0 var(--page-margin) 64px;
   --photo-grid-gap: 12px;
   --photo-grid-columns: 1;
 }

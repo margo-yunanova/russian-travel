@@ -2,24 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 16px 0 48px;
+  padding: 16px var(--page-margin) 48px;
 }
 
 @media (min-width: /*landscape-phone*/740px) {
   .header {
-    padding: 28px 0 48px;
+    padding-top: 28px;
   }
 }
 
 @media (min-width: /*landscape-tablet*/1024px) {
   .header {
-    padding: 28px 0 48px;
+
   }
 }
 
 @media (min-width: /*laptop*/1280px) {
   .header {
-    padding: 28px 0 56px;
+    padding-bottom: 56px;
   }
 }
 
