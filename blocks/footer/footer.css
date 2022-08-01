@@ -1,3 +1,19 @@
 ﻿.footer {
+  /* padding: 0 var(--page-margin); */
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
 
+@media (min-width: /*landscape-phone*/740px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 88px;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .footer {
+    padding-top: 92px;
+  }
 }
