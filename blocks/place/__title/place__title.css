@@ -1,4 +1,22 @@
 ﻿.place__title {
-  margin: 0;
+  margin: 0 var(--page-margin);
   font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+@media (min-width: /*landscape-phone*/740px) {
+  .place__title {
+    margin: 0;
+    width: var(--place-picture-width);
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
 }

@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 16px var(--page-margin) 48px;
+  padding: 16px 0 48px;
+  margin: 0 var(--page-margin);
 }
 
 @media (min-width: /*landscape-phone*/740px) {
@@ -11,17 +12,9 @@
   }
 }
 
-@media (min-width: /*landscape-tablet*/1024px) {
-  .header {
-
-  }
-}
-
 @media (min-width: /*laptop*/1280px) {
   .header {
     padding-bottom: 56px;
+    width: 1184px;
   }
 }
-
-
-

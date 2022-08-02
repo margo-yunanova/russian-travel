@@ -1,5 +1,6 @@
 ﻿.footer {
   /* padding: 0 var(--page-margin); */
+  margin: 0 var(--page-margin);
   padding-top: 64px;
   padding-bottom: 24px;
 }
@@ -15,5 +16,11 @@
 @media (min-width: /*landscape-tablet*/1024px) {
   .footer {
     padding-top: 92px;
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .footer {
+    width: 1184px;
   }
 }

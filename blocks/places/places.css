@@ -1,3 +1,28 @@
 ﻿.places {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  /* padding: 0 var(--page-margin) 66px; */
+  padding-bottom: 66px;
+}
 
+@media (min-width: /*landscape-phone*/740px) {
+  .places {
+    row-gap: 73px;
+    margin: 0 var(--page-margin);
+    padding-bottom: 90px;
+  }
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .places {
+    row-gap: 80px;
+    padding-bottom: 92px;
+  }
+}
+
+@media (min-width: /*laptop*/1280px) {
+  .places {
+    width: 984px;
+  }
 }

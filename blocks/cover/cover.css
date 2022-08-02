@@ -2,15 +2,17 @@
   /* padding: 0 var(--page-margin) 64px; */
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-  width: calc(100% + var(--page-margin) * 2);
-  margin: 0 calc(0px - var(--page-margin));
-  height: calc(100vw / 1.6);
+  width: 100%;
+  margin: 0 auto;
+  min-height: calc(100vw / 1.6);
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 16px;
   position: relative;
   z-index: 0;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .cover::before {
@@ -28,9 +30,15 @@
   opacity: 0.8;
 }
 
+@media (min-width: /*landscape-phone*/740px) {
+  .cover {
+    row-gap: 32px;
+  }
+}
+
 @media (min-width: /*laptop*/1280px) {
   .cover {
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
   }
 }

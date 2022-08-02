@@ -19,12 +19,6 @@
   }
 }
 
-@media (min-width: /*landscape-tablet*/1024px) {
-  .lead__subtitle {
-
-  }
-}
-
 @media (min-width: /*laptop*/1280px) {
   .lead__subtitle {
     padding-bottom: 64px;

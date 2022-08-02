@@ -1,5 +1,5 @@
 ﻿.lead {
-  padding-bottom: 0 var(--page-margin) 64px;
+  padding-bottom: 64px;
 }
 
 
@@ -12,16 +12,12 @@
 @media (min-width: /*landscape-tablet*/1024px) {
   .lead {
     padding-bottom: 92px;
+    margin: 0 var(--page-margin);
   }
-
 }
 
 @media (min-width: /*laptop*/1280px) {
   .lead {
-
+    width: 984px;
   }
 }
-
-
-
-

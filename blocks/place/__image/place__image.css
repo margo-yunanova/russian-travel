@@ -1,3 +1,9 @@
 ﻿.place__image {
   width: 100%;
 }
+
+@media (min-width: /*landscape-phone*/740px) {
+  .place__image {
+    width: var(--place-picture-width);
+  }
+}

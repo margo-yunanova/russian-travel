@@ -1,5 +1,6 @@
 ﻿.intro {
-  padding:  0 var(--page-margin) 64px;
+  margin: 0 var(--page-margin);
+  padding-bottom: 64px;
 }
 
 @media (min-width: /*landscape-phone*/740px) {
@@ -11,6 +12,6 @@
 @media (min-width: /*landscape-tablet*/1024px) {
   .intro {
     padding-bottom: 92px;
+    width: 984px;
   }
 }
-

@@ -1,5 +1,5 @@
 ﻿.lead__title {
-  margin: 0;
+  margin: 0 ;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 16px;
@@ -16,17 +16,5 @@
     font-size: 96px;
     line-height: 100px;
     max-width: 720px;
-  }
-}
-
-@media (min-width: /*landscape-tablet*/1024px) {
-  .lead__title {
-
-  }
-}
-
-@media (min-width: /*laptop*/1280px) {
-  .lead__title {
-
   }
 }

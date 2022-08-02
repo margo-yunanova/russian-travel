@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--photo-grid-gap);
-  padding: 0 var(--page-margin) 64px;
+  margin: 0 var(--page-margin);
+  padding-bottom: 64px;
   --photo-grid-gap: 12px;
   --photo-grid-columns: 1;
 }
@@ -27,5 +28,6 @@
   .photo-grid {
     --photo-grid-gap: 16px;
     --photo-grid-columns: 4;
+    width: 1184px;
   }
 }

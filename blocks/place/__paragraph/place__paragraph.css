@@ -1,3 +1,16 @@
 ﻿.place__paragraph {
   margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.place__paragraph:nth-child(n+2) {
+  padding-top: 25px;
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
 }

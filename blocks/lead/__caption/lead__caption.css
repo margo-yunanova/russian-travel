@@ -1,6 +1,5 @@
 ﻿.lead__caption {
-  margin: 0;
-  padding-left: var(--page-margin);
+  margin: 0 var(--page-margin);
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 10px;
@@ -8,20 +7,8 @@
   text-align: left;
 }
 
-@media (min-width: /*landscape-phone*/740px) {
-  .lead__caption {
-
-
-  }
-}
-
 @media (min-width: /*landscape-tablet*/1024px) {
   .lead__caption {
-
+    margin: 0;
   }
-
-}
-
-@media (min-width: /*laptop*/1280px) {
-
 }

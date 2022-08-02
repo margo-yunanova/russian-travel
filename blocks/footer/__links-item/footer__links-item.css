@@ -1,0 +1,9 @@
+.footer__links-item:nth-child(n+2) {
+  padding-top: 32px;
+}
+
+@media (min-width: /*landscape-phone*/740px) {
+  .footer__links-item:nth-child(n+2) {
+    padding-top: 0;
+  }
+}
