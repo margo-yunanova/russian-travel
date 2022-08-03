@@ -9,7 +9,7 @@
 
 @media (min-width: /*landscape-phone*/740px) {
   .intro__title {
-  font-size: 54px;
-  line-height: 58px;
+    font-size: 54px;
+    line-height: 58px;
   }
 }

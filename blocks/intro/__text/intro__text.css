@@ -3,5 +3,10 @@
   font-size: 16px;
   line-height: 163%;
   padding-bottom: 33px;
-  max-width: 690px;
+}
+
+@media (min-width: /*landscape-tablet*/1024px) {
+  .intro__text {
+    max-width: 690px;
+  }
 }

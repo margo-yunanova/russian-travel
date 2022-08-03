@@ -1,7 +1,14 @@
 ﻿.header__lang-link {
   padding-bottom: 6px;
+  text-decoration: none;
+  color: #FFFFFF;
   font-size: 18px;
   line-height: 20px;
+  transition: opacity 0.5s linear;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
 }
 
 @media (min-width: /*landscape-phone*/740px) {
